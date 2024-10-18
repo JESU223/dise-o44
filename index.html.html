@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bailes Típicos de Colombia</title>
+    <!-- CDN alternativo para Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@400;700&display=swap'); /* Fuentes creativas importadas */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000000; /* Fondo negro */
+            color: white;
+            padding: 20px 0;
+            position: relative;
+            text-align: center; /* Centramos todo el contenido del header */
+        }
+        .icons {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .icons i {
+            font-size: 24px;
+            margin-right: 15px;
+        }
+        /* Colores para los íconos */
+        .menu-icon {
+            color: #ffcc00; /* Amarillo */
+        }
+        .home-icon {
+            color: #0033cc; /* Azul */
+        }
+        .search-icon {
+            color: #ff0000; /* Rojo */
+        }
+        section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap; /* Permitir que los elementos se ajusten en varias filas si es necesario */
+            justify-content: center; /* Centrar los elementos horizontalmente */
+        }
+        h1 {
+            font-size: 36px;
+        }
+        /* Estilos para alternar colores en el título */
+        .letter-yellow {
+            color: #ffcc00;
+            display: inline;
+        }
+        .letter-blue {
+            color: #0033cc;
+            display: inline;
+        }
+        .letter-red {
+            color: #ff0000;
+            display: inline;
+        }
+        /* Estilos para los nombres de los bailes (subtítulos) */
+        h2 {
+            font-family: 'Pacifico', cursive; /* Fuente creativa */
+            font-size: 28px;
+        }
+        .baile-yellow {
+            color: #ffcc00;
+        }
+        .baile-blue {
+            color: #0033cc;
+        }
+        .baile-red {
+            color: #ff0000;
+        }
+        /* Estilos para los textos debajo de las imágenes */
+        p {
+            font-family: 'Roboto Slab', serif; /* Fuente cursiva más estilizada */
+            font-style: italic;
+            font-size: 16px;
+            color: #555;
+        }
+        .baile {
+            display: flex; /* Hace que los elementos internos se alineen horizontalmente */
+            align-items: center; /* Alinea las imágenes y los textos verticalmente al centro */
+            margin: 20px;
+            flex-basis: 45%; /* Ocupará el 45% del ancho disponible */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .baile img {
+            width: 150px; /* Reduce el tamaño de las imágenes */
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px; /* Añade espacio entre la imagen y el texto */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center; /* Centramos el texto del footer */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-icons {
+            margin-bottom: 10px;
+        }
+        .social-icons i {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        /* Colores para los iconos de redes sociales */
+        .instagram-icon {
+            color: #ffcc00; /* Amarillo */
+        }
+        .facebook-icon {
+            color: #0033cc; /* Azul */
+        }
+        .twitter-icon {
+            color: #ff0000; /* Rojo */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Contenedor de iconos -->
+        <div class="icons">
+            <!-- Icono de menú -->
+            <i class="fas fa-bars menu-icon"></i>
+            <!-- Icono de Home -->
+            <i class="fas fa-home home-icon"></i>
+            <!-- Icono de lupa -->
+            <i class="fas fa-search search-icon"></i>
+        </div>
+
+        <h1>
+            <h1>
+                <span class="letter-yellow">B</span><span class="letter-yellow">a</span
+                ><span class="letter-blue">i</span><span class="letter-blue">l</span
+                ><span class="letter-red">e</span><span class="letter-red">s</span>
+                <span class="letter-yellow">T</span><span class="letter-yellow">í</span
+                ><span class="letter-blue">p</span><span class="letter-blue">i</span
+                ><span class="letter-red">c</span><span class="letter-red">o</span><span class="letter-yellow">s</span>
+                <span class="letter-blue">d</span><span class="letter-blue">e</span>
+                <span class="letter-red">C</span><span class="letter-yellow">o</span
+                ><span class="letter-yellow">l</span><span class="letter-blue">o</span
+                ><span class="letter-blue">m</span><span class="letter-red">b</span
+                ><span class="letter-red">i</span><span class="letter-yellow">a</span>
+            </h1>
+            
+        </h1>
+        <!-- Centramos el subtítulo -->
+        <p>Descubre los principales bailes tradicionales de nuestro país</p>
+    </header>
+
+    <section>
+        <div class="baile">
+            <img src="a123.jpg" alt="Cumbia">
+            <div>
+                <h2 class="baile-yellow">Cumbia</h2>
+                <p>La Cumbia es uno de los bailes más representativos de la costa caribe colombiana, con raíces africanas, indígenas y españolas.</p>
+            </div>
+        </div>
+
+        <div class="baile">
+            <img src="https://th.bing.com/th/id/OIP.uyVsAjPHpOssjZZT-ssPngHaEo?rs=1&pid=ImgDetMain" alt="Joropo">
+            <div>
+                <h2 class="baile-blue">Joropo</h2>
+                <p>El Joropo es el baile típico de los Llanos Orientales, caracterizado por su zapateo y el uso del arpa, cuatro y maracas.</p>
+            </div>
+        </div>
+
+        <div class="baile">
+            <img src="https://hablemosdeculturas.com/wp-content/uploads/2017/12/Mapale-5.jpg" alt="Mapalé">
+            <div>
+                <h2 class="baile-red">Mapalé</h2>
+                <p>El Mapalé es una danza afrocolombiana de la costa pacífica, conocida por sus movimientos rápidos y enérgicos.</p>
+            </div>
+        </div>
+
+        <div class="baile">
+            <img src="https://radionacional-v3.s3.amazonaws.com/s3fs-public/node/article/field_image/Traje%201.jpg" alt="Bambuco">
+            <div>
+                <h2 class="baile-yellow">Bambuco</h2>
+                <p>El Bambuco es un baile típico de la región andina colombiana, con melodías suaves y ritmos de origen indígena.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Iconos de redes sociales -->
+        <div class="social-icons">
+            <i class="fab fa-instagram instagram-icon"></i>
+            <i class="fab fa-facebook facebook-icon"></i>
+            <i class="fab fa-twitter twitter-icon"></i>
+        </div>
+        <!-- Centramos el texto del footer y añadimos espacio extra debajo de los iconos -->
+        <p>&copy; Términos Legales. Copyright.</p>
+    </footer>
+
+</body>
+</html>
